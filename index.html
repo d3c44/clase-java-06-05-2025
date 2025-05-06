@@ -17,11 +17,29 @@
             <input type="text" id="lastName" required>
         </div>
         <div>
+            <label for="fecha"> Fecha: </label>
+            <input type="date" id="fecha" required>
+        </div>
+        <div>
             <label for="grade">Nota: (1.0 - 7.0)</label>
             <input type="number" id="grade" step="0.1" min="1" max="7" required>
         </div>
         <button type="submit"> Guardar Datos</button>
     </form>
+    <table id="studentsTabla" border=1 cellspadding="8" cellspacing="0">
+         <thead>
+            <tr>
+                <th>nombre</th>
+                <th> apellido</th>
+                <th> Fecha </th>
+                <th> nota </th>
+
+            </tr>
+         </thead>
+    <tbody>
+
+    </tbody>
+    </table>
     <script src="script.js"> </script>
 </body>
 </html>
